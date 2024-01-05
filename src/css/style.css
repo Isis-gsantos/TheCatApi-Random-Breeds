@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../images/cute-cat-pattern-8jor969j2b0jojnm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    background-color: #eeeeee;
+    gap: 40px;
+    max-height: 450px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 30px;
+}
+
+.content li {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0;
+    max-width: 100%;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #822faf;
+  }
+
+.breed-image {
+    max-width: 450px;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-random-breed {
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    max-width: 50px;
+    background-color: #e7c6ff;
+    padding: 10px 0;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.btn-random-breed:hover {
+    box-shadow: 0px 0px 53px 0px #d100d1,0px 10px 15px -3px rgba(0,0,0,0.1);
+}
